@@ -15,6 +15,11 @@ st.set_page_config(
 
 
 CATEGORY_RULES = {
+    "Online Subscriptions": [
+        "OPENAI", "CHATGPT", "CLAUDE", "GOOGLE WORKSPACE",
+        "GOOGLE MOODLOG", "APPLE.COM", "RING", "OPUS CLIP",
+        "NAME-CHEAP", "NAMECHEAP", "HONEYTOON", "USP*COMIC"
+    ],
     "Groceries": [
         "COSTCO", "KING SOOPERS", "SAFEWAY", "WAL-MART", "WALMART",
         "WM SUPERCENTER", "WHOLEFDS", "WHOLE FOODS", "FRESH MARKET",
@@ -31,11 +36,7 @@ CATEGORY_RULES = {
         "PUBLIC WORKS-PRKG", "PARKING"
     ],
     "Insurance": [
-        "PROGRESSIVE"
-    ],
-    "Online Shopping": [
-        "EBAY", "PAYPAL *EBAY", "AMZ", "AMAZON", "BESTBUYCOM",
-        "WWW COSTCO COM", "QINK", "TRYAURELA"
+        "PROGRESSIVE", "Aetna", "State Farm", "GEICO", "Liberty Mutual", "Allstate","Cigna"
     ],
     "Online Subscriptions": [
         "OPENAI", "CHATGPT", "CLAUDE", "GOOGLE WORKSPACE",
